@@ -8,8 +8,18 @@ function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
 
-var ComputerMove, item, PlayerMove;
-ComputerMove = 'kamień';
-printMessage('Zagrałem ' + ComputerMove + '! Jeśli Twój ruch to papier, to wygrywasz!');
-PlayerMove = 'papier';
-printMessage('Zagrałem' + PlayerMove + '! Jeśli Twój ruch to nożyce, to wygrywasz!');
+var computerMove, randomNumber;
+randomNumber = Math.floor(Math.random() * 3 + 1);
+console.log('wylosowana liczba to: ' + randomNumber);
+if (randomNumber == '1') {
+  computerMove = 'kamień';
+} else if (randomNumber == '2') {
+  computerMove = 'papier';
+} else if (randomNumber == '3') {
+  computerMove = 'nożyce';
+} else {
+  computerMove = 'nieznany ruch';
+}
+printMessage('Mój ruch: ' + computerMove);
+Step JavaScript
+Run JavaScript
