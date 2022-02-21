@@ -5,8 +5,7 @@ var argButtonName, argButtonPaper, argButtonRock, argButtonScissors, buttonPaper
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  
-  function getMoveName(argMoveId) {
+   function getMoveName(argMoveId) {
     console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
     if (argMoveId == 1) {
       return 'kamień';
@@ -34,8 +33,7 @@ function buttonClicked(argButtonName) {
     }
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
   }
-  
-  
+ 
 
   playerMove = argButtonName;
   console.log('ruch gracza to: ' + playerMove);
