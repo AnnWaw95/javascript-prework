@@ -1,6 +1,22 @@
 var argButtonName, argButtonPaper, argButtonRock, argButtonScissors, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
+function buttonClicked(argButtonName) {
+  clearMessages();
+  console.log(argButtonName + ' został kliknięty');
 
+function getMoveName(argMoveId) {
+  console.log('wywołano funkcję getMoveName z argumentem: ' + argMoveId);
+  if (argMoveId == 1) {
+    return 'kamień';
+  } else if (argMoveId == 2) {
+    return 'papier';
+  } else if (argMoveId == 3) {
+    return 'nożyce';
+  } else {
+    printMessage('Nie znam ruchu o id ' + argMoveId + '. Zakładam, że chodziło o "kamień".');
+    return 'kamień';
+  }
+}
 
 function buttonClicked(argButtonName) {
     clearMessages();
