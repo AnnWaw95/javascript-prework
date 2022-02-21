@@ -1,0 +1,18 @@
+/* Body */
+
+
+body {
+    text-align: center;
+    text-decoration: solid;
+    background-image: url('https://i.postimg.cc/g25B0Vp0/pexels-scott-webb-2824173.jpg');
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
