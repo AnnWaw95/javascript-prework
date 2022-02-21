@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link tel="stylesheet" href="sass/style.scss">
 </head>
 <body>
-	<div class="container">
-		<div id="buttons">
-			<button id="button-rock">Kamień</button>
-			<button id="button-paper">Papier</button>
-			<button id="button-scissors">Nożyce</button>
+	<header class="splash">
+		<div class="splash-inner">
+			<div class="container">
+				<h1 class="page-title">Cześć, zagrajmy w papier, kamień, nożyce!</h1>
+				<h2 class="page-subtitle">Zabawmy się jak dorośli <i class="fas fa-solid fa-hand-scissors"></i></h2>
+			</div>
 		</div>
+	</header>
+	
+	<div class="container">
+		<h3> Wybierz swój ruch :)</h3>
+		<div id="buttons">
+			<button id="button-rock"> Kamień </button>
+			<button id="button-paper"> Papier </button>
+			<button id="button-scissors"> Nożyce </button>
+		</div>
+		<h3>Wynik Twojej gry to:</h3>
 		<div id="messages"></div>
+		<div id="result"></div>
 	</div>
+
+	<section class="rules">
+		<div class="container">
+		<h1 class="rules-title">Zasady naszej gry</h1>
+		<p>Pojedyncza runda gry polega na jednoczesnym zagraniu dwóch graczy.</p>
+		<p>Każdy gracz może wybrać jeden z ruchów: papier, kamień, lub nożyce.</p>
+		<ul>
+			<li>Remis – jeśli obaj gracze wybrali ten sam ruch</li>
+			<li>Wygrana gracza, który zagrał papier, jeśli drugi gracz zagrał kamień</li>
+			<li>Wygrana gracza, który zagrał kamień, jeśli drugi gracz zagrał nożyce</li>
+			<li>Wygrana gracza, który zagrał nożyce, jeśli drugi gracz zagrał papier</li>
+		</ul>
+		</div>
+	</section>
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>
