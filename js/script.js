@@ -1,3 +1,4 @@
+var argButtonName, argButtonPaper, argButtonRock, argButtonScissors, buttonPaper, buttonRock, buttonScissors, buttonTest;
 
 
 
