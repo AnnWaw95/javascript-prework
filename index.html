@@ -4,11 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
-	<link tel="stylesheet" href="sass/style.scss">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
+	<section class="head py-5 my-3 text-center">
 	<header class="splash">
 		<div class="splash-inner">
 			<div class="container">
@@ -17,20 +20,29 @@
 			</div>
 		</div>
 	</header>
-	
+	</section>
+	<section class="game py-5 text-center">
 	<div class="container">
-		<h3> Wybierz swój ruch :)</h3>
+		<h2> Wybierz swój ruch :)</h2>
 		<div id="buttons">
-			<button id="button-rock"> Kamień </button>
-			<button id="button-paper"> Papier </button>
-			<button id="button-scissors"> Nożyce </button>
+			<button id="button-rock"> 
+				<h4>Kamień</h4>
+			</button>
+			<button id="button-paper"> 
+				<h4>Papier</h4> 
+			</button>
+			<button id="button-scissors"> 
+				<h4>>Nożyce</h4 
+			</button>
 		</div>
+	</section>
+	<section class="result">
 		<h3>Wynik Twojej gry to:</h3>
 		<div id="messages"></div>
 		<div id="result"></div>
 	</div>
-
-	<section class="rules">
+	</section>
+	<section class="rules py-5 text-center">
 		<div class="container">
 		<h1 class="rules-title">Zasady naszej gry</h1>
 		<p>Pojedyncza runda gry polega na jednoczesnym zagraniu dwóch graczy.</p>
