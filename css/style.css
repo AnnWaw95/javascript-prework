@@ -1,34 +1,32 @@
 /* Body */
-
-
 body {
-    text-align: center;
-    text-decoration: solid;
-    background-image: url('https://i.postimg.cc/FKT28G6x/pexels-francesco-ungaro-1670977.jpg');
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-    font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  text-decoration: solid;
+  background-image: url("https://i.postimg.cc/FKT28G6x/pexels-francesco-ungaro-1670977.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
 }
 
 .container {
-    padding: 30px;
+  padding: 30px;
 }
 
 .container h1, h2, h3 {
-    font-family: font-family: 'Bebas Neue', cursive;
-    font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
 }
 
 .container ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .btn {
-    margin: 20px;
-    border-style: solid;
+  margin: 20px;
+  border-style: solid;
 }
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=style.css.map */
